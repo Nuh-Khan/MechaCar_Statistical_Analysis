@@ -52,3 +52,12 @@ The p-value for this T-Test is also very small, once again indicating that we ha
 
 The p-value for this test is quite large, which means that we don't have enough evidence to reject the null hypothesis. The mean of Lot 3 and the mean of the population are similar. Given that previous tests have shown issues with the variance of PSI in Lot 3, we know that this production facility is significantly influencing the population mean. Therefore, efforts should be concentrated on addressing the issues faced in Lot 3 during the production of the MechaCar.
 
+## Study Design: MechaCar vs Competition
+
+The analyses conducted thus far have pinpointed areas that need improvement in order to address MechaCar's production challenges. It would also be advantageous to assess how MechaCar competes with other vehicles in the market. Emphasizing its fuel efficiency is a smart strategy, as this is a primary concern for car buyers in the target demographics.
+
+In this context, it is suggested to have a null hypothesis stating that the innovative technology implemented in MechaCar results in the same highway fuel efficiency as other vehicles within its class. Conversely, the alternative hypothesis posits that MechaCar's advanced technology leads to enhanced fuel efficiency compared to similar vehicles.
+
+To perform this analysis, it is recommended to use a multiple linear regression test, as multiple independent variables influence fuel efficiency. This approach will allow isolating the impact of MechaCar's advanced technology on fuel efficiency.
+
+The dataset required for this analysis should encompass the specific technology employed in the MechaCar and other relevant factors known to impact fuel efficiency, such as engine type, tires, MPG, vehicle length, and ground clearance.
