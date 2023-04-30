@@ -10,3 +10,11 @@ The slope of the linear model is not considered to be zero, as some of the indep
 This linear model can predict the mpg of MechaCar prototypes effectively, as the r-squared value is relatively high, suggesting that the model accounts for a significant portion of the variance in the dependent variable (mpg).
 
 ![linear Regression](Resources/Linear_regression_MPG.png)
+
+## Suspension Coils Summary Statistics
+
+![summary table](Resources/Summary_stat_suspension.png)
+
+While the overall manufacturing data adheres to the design specifications, individual lots display discrepancies. Specifically, Lot 3's variance surpasses the 100 PSI limit, reaching over 170 PSI.
+
+![Summary table lots](Resources/Summary_stat_suspension_lots.png)
